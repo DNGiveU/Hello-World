@@ -9,3 +9,12 @@ KNN 取K个点，根据距离进行分类
 K-MEANS - 自分类：随机K个点，取质心再平衡
 协同过滤 - 每个用户之和: 打分(行为)、相似度 交集/并集
 神经网络 - 求w、b。隐藏层 - 分解问题
+
+### ARP
+[How Address Resolution Protocol(ARP) Works?](https://www.geeksforgeeks.org/how-address-resolution-protocol-arp-works/)
+
+想象一下，一台设备想通过互联网与另一台设备通信。 什么是ARP？ 它是否向源网络的所有设备广播数据包。
+网络中的设备将数据链路层的报头从称为帧的协议数据单元（PDU）剥离，并将数据包传输到网络层（OSI的第3层） ），其中数据包的网络ID已用目标IP的数据包的网络ID进行了验证，如果相等，
+则它将使用目标MAC地址响应源，否则数据包到达网络的网关并广播数据包到 连接到它的设备并验证其网络ID上面的过程一直持续到路径中的第二个网络设备到达验证目的地为止，而ARP依次响应目标MAC地址。.
+
+ip -> arp -> mac
