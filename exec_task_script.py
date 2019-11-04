@@ -5,6 +5,8 @@ import time
 import json
 
 """
+后台运行脚本：nohup python -u exec_task_script.py > exec_task_script_`date +%F`.log 2>&1 &
+
 配置项: script_code、end_time
 """
 
